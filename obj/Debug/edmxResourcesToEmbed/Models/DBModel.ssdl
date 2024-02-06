@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NOMINAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AN_COMEDOR_USUARIO">
+    <Key>
+      <PropertyRef Name="USUARIO_COMEDOR" />
+    </Key>
+    <Property Name="USUARIO_COMEDOR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="TIPO_USUARIO" Type="varchar" MaxLength="1" />
+    <Property Name="NUM_EMP" Type="varchar" MaxLength="6" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="40" />
+    <Property Name="AP_PATER" Type="varchar" MaxLength="40" />
+    <Property Name="AP_MATER" Type="varchar" MaxLength="40" />
+    <Property Name="CCOSTO" Type="varchar" MaxLength="10" />
+    <Property Name="PUESTO" Type="varchar" MaxLength="4" />
+    <Property Name="F_ALTA" Type="varchar" MaxLength="8" />
+    <Property Name="F_BAJA" Type="varchar" MaxLength="8" />
+    <Property Name="F_SUSPENCION" Type="varchar" MaxLength="8" />
+    <Property Name="CIA" Type="varchar" MaxLength="2" />
+    <Property Name="TIPO_NOM" Type="varchar" MaxLength="2" />
+    <Property Name="SIN_USO1" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO2" Type="varchar" MaxLength="20" />
+    <Property Name="SN_USO3" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="AN_EMP">
+    <Key>
+      <PropertyRef Name="NUM_EMP" />
+    </Key>
+    <Property Name="NUM_EMP" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="NOMP_EMP" Type="varchar" MaxLength="20" />
+    <Property Name="AP_PATER" Type="varchar" MaxLength="20" />
+    <Property Name="AP_MATER" Type="varchar" MaxLength="20" />
+    <Property Name="TITULO" Type="varchar" MaxLength="10" />
+    <Property Name="SEXO" Type="char" MaxLength="1" />
+    <Property Name="F_NAC" Type="varchar" MaxLength="8" />
+    <Property Name="SIN_USO7" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO8" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO9" Type="varchar" MaxLength="10" />
+    <Property Name="NUM_SOLIC" Type="varchar" MaxLength="8" />
+    <Property Name="RFC" Type="varchar" MaxLength="15" />
+    <Property Name="AJUSTE_ANUAL" Type="varchar" MaxLength="1" />
+    <Property Name="CRED_SALARIO" Type="varchar" MaxLength="1" />
+    <Property Name="F_ALTA" Type="varchar" MaxLength="8" />
+    <Property Name="F_INGRESO" Type="varchar" MaxLength="8" />
+    <Property Name="F_PLANTA" Type="varchar" MaxLength="8" />
+    <Property Name="F_BAJA" Type="varchar" MaxLength="8" />
+    <Property Name="F_BAJA_RESP" Type="varchar" MaxLength="8" />
+    <Property Name="F_BAJA_IMSS" Type="varchar" MaxLength="8" />
+    <Property Name="SIN_USO20" Type="varchar" MaxLength="10" />
+    <Property Name="TURNO" Type="varchar" MaxLength="3" />
+    <Property Name="CLV_TARJ" Type="varchar" MaxLength="1" />
+    <Property Name="CCOSTO" Type="varchar" MaxLength="10" />
+    <Property Name="EST_ORG" Type="varchar" MaxLength="20" />
+    <Property Name="PLAZA" Type="varchar" MaxLength="10" />
+    <Property Name="PUESTO" Type="varchar" MaxLength="4" />
+    <Property Name="CATEGORIA" Type="varchar" MaxLength="4" />
+    <Property Name="CONTRATO" Type="varchar" MaxLength="10" />
+    <Property Name="TIPO_NOM" Type="varchar" MaxLength="2" />
+    <Property Name="TIPO_EMP" Type="varchar" MaxLength="2" />
+    <Property Name="F_DIST_PAGO" Type="varchar" MaxLength="2" />
+    <Property Name="TIPO_PAGO" Type="char" MaxLength="1" />
+    <Property Name="BCO_DEP" Type="varchar" MaxLength="3" />
+    <Property Name="CTA_BAN" Type="varchar" MaxLength="20" />
+    <Property Name="SUCURSAL" Type="varchar" MaxLength="10" />
+    <Property Name="RECINTO" Type="varchar" MaxLength="4" />
+    <Property Name="UBICA_FIS" Type="varchar" MaxLength="4" />
+    <Property Name="ZONA_EC" Type="varchar" MaxLength="3" />
+    <Property Name="GUIA_POSTAL" Type="varchar" MaxLength="4" />
+    <Property Name="SIN_USO40" Type="varchar" MaxLength="10" />
+    <Property Name="IMSS" Type="varchar" MaxLength="15" />
+    <Property Name="NO_REG_PAT_IMSS" Type="varchar" MaxLength="2" />
+    <Property Name="TIPO_COT_IMSS" Type="varchar" MaxLength="1" />
+    <Property Name="CURP" Type="varchar" MaxLength="18" />
+    <Property Name="SIN_USO45" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO46" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO47" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO48" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO49" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO50" Type="varchar" MaxLength="10" />
+    <Property Name="TABULADOR" Type="varchar" MaxLength="6" />
+    <Property Name="SAL_MENS" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIARIO" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_INT" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_SAR" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_INFO" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_INT_FINI" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_MINIMO" Type="varchar" MaxLength="1" />
+    <Property Name="SIN_USO59" Type="varchar" MaxLength="10" />
+    <Property Name="SIN_USO60" Type="varchar" MaxLength="10" />
+    <Property Name="ADICION1_NUM" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="ADICION2_NUM" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="ADICION1_FECH" Type="varchar" MaxLength="10" />
+    <Property Name="ADICION2_FECH" Type="varchar" MaxLength="10" />
+    <Property Name="ADICION1_ALFA" Type="varchar" MaxLength="40" />
+    <Property Name="ADICION2_ALFA" Type="varchar" MaxLength="40" />
+    <Property Name="ADICION3_ALFA" Type="varchar" MaxLength="40" />
+    <Property Name="ADICION4_ALFA" Type="varchar" MaxLength="40" />
+    <Property Name="FOLIO_CONTRATO" Type="int" />
+    <Property Name="C_BAJA" Type="varchar" MaxLength="2" />
+    <Property Name="NOMP_EMP_NORMAL" Type="varchar" MaxLength="20" />
+    <Property Name="AP_PATER_NORMAL" Type="varchar" MaxLength="20" />
+    <Property Name="AP_MATER_NORMAL" Type="varchar" MaxLength="20" />
+    <Property Name="F_ALTA_CA" Type="varchar" MaxLength="8" />
+    <Property Name="F_BAJA_CA" Type="varchar" MaxLength="8" />
+    <Property Name="CBAJA_CA" Type="varchar" MaxLength="4" />
+    <Property Name="PORC_CA" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="IMPORTE_CA" Type="decimal" Precision="12" Scale="2" />
+    <Property Name="F_VIGOR" Type="varchar" MaxLength="8" />
+    <Property Name="RETENCION_CA" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityContainer Name="NOMINAModelStoreContainer">
+    <EntitySet Name="AN_COMEDOR_USUARIO" EntityType="Self.AN_COMEDOR_USUARIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AN_EMP" EntityType="Self.AN_EMP" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

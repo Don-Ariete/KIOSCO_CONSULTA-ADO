@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NOMINAModelStoreContainer" CdmEntityContainer="DBEntities">
+    <EntitySetMapping Name="AN_COMEDOR_USUARIO">
+      <EntityTypeMapping TypeName="NOMINAModel.AN_COMEDOR_USUARIO">
+        <MappingFragment StoreEntitySet="AN_COMEDOR_USUARIO">
+          <ScalarProperty Name="USUARIO_COMEDOR" ColumnName="USUARIO_COMEDOR" />
+          <ScalarProperty Name="TIPO_USUARIO" ColumnName="TIPO_USUARIO" />
+          <ScalarProperty Name="NUM_EMP" ColumnName="NUM_EMP" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="AP_PATER" ColumnName="AP_PATER" />
+          <ScalarProperty Name="AP_MATER" ColumnName="AP_MATER" />
+          <ScalarProperty Name="CCOSTO" ColumnName="CCOSTO" />
+          <ScalarProperty Name="PUESTO" ColumnName="PUESTO" />
+          <ScalarProperty Name="F_ALTA" ColumnName="F_ALTA" />
+          <ScalarProperty Name="F_BAJA" ColumnName="F_BAJA" />
+          <ScalarProperty Name="F_SUSPENCION" ColumnName="F_SUSPENCION" />
+          <ScalarProperty Name="CIA" ColumnName="CIA" />
+          <ScalarProperty Name="TIPO_NOM" ColumnName="TIPO_NOM" />
+          <ScalarProperty Name="SIN_USO1" ColumnName="SIN_USO1" />
+          <ScalarProperty Name="SIN_USO2" ColumnName="SIN_USO2" />
+          <ScalarProperty Name="SN_USO3" ColumnName="SN_USO3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AN_EMP">
+      <EntityTypeMapping TypeName="NOMINAModel.AN_EMP">
+        <MappingFragment StoreEntitySet="AN_EMP">
+          <ScalarProperty Name="NUM_EMP" ColumnName="NUM_EMP" />
+          <ScalarProperty Name="NOMP_EMP" ColumnName="NOMP_EMP" />
+          <ScalarProperty Name="AP_PATER" ColumnName="AP_PATER" />
+          <ScalarProperty Name="AP_MATER" ColumnName="AP_MATER" />
+          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+          <ScalarProperty Name="SEXO" ColumnName="SEXO" />
+          <ScalarProperty Name="F_NAC" ColumnName="F_NAC" />
+          <ScalarProperty Name="SIN_USO7" ColumnName="SIN_USO7" />
+          <ScalarProperty Name="SIN_USO8" ColumnName="SIN_USO8" />
+          <ScalarProperty Name="SIN_USO9" ColumnName="SIN_USO9" />
+          <ScalarProperty Name="NUM_SOLIC" ColumnName="NUM_SOLIC" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="AJUSTE_ANUAL" ColumnName="AJUSTE_ANUAL" />
+          <ScalarProperty Name="CRED_SALARIO" ColumnName="CRED_SALARIO" />
+          <ScalarProperty Name="F_ALTA" ColumnName="F_ALTA" />
+          <ScalarProperty Name="F_INGRESO" ColumnName="F_INGRESO" />
+          <ScalarProperty Name="F_PLANTA" ColumnName="F_PLANTA" />
+          <ScalarProperty Name="F_BAJA" ColumnName="F_BAJA" />
+          <ScalarProperty Name="F_BAJA_RESP" ColumnName="F_BAJA_RESP" />
+          <ScalarProperty Name="F_BAJA_IMSS" ColumnName="F_BAJA_IMSS" />
+          <ScalarProperty Name="SIN_USO20" ColumnName="SIN_USO20" />
+          <ScalarProperty Name="TURNO" ColumnName="TURNO" />
+          <ScalarProperty Name="CLV_TARJ" ColumnName="CLV_TARJ" />
+          <ScalarProperty Name="CCOSTO" ColumnName="CCOSTO" />
+          <ScalarProperty Name="EST_ORG" ColumnName="EST_ORG" />
+          <ScalarProperty Name="PLAZA" ColumnName="PLAZA" />
+          <ScalarProperty Name="PUESTO" ColumnName="PUESTO" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="CONTRATO" ColumnName="CONTRATO" />
+          <ScalarProperty Name="TIPO_NOM" ColumnName="TIPO_NOM" />
+          <ScalarProperty Name="TIPO_EMP" ColumnName="TIPO_EMP" />
+          <ScalarProperty Name="F_DIST_PAGO" ColumnName="F_DIST_PAGO" />
+          <ScalarProperty Name="TIPO_PAGO" ColumnName="TIPO_PAGO" />
+          <ScalarProperty Name="BCO_DEP" ColumnName="BCO_DEP" />
+          <ScalarProperty Name="CTA_BAN" ColumnName="CTA_BAN" />
+          <ScalarProperty Name="SUCURSAL" ColumnName="SUCURSAL" />
+          <ScalarProperty Name="RECINTO" ColumnName="RECINTO" />
+          <ScalarProperty Name="UBICA_FIS" ColumnName="UBICA_FIS" />
+          <ScalarProperty Name="ZONA_EC" ColumnName="ZONA_EC" />
+          <ScalarProperty Name="GUIA_POSTAL" ColumnName="GUIA_POSTAL" />
+          <ScalarProperty Name="SIN_USO40" ColumnName="SIN_USO40" />
+          <ScalarProperty Name="IMSS" ColumnName="IMSS" />
+          <ScalarProperty Name="NO_REG_PAT_IMSS" ColumnName="NO_REG_PAT_IMSS" />
+          <ScalarProperty Name="TIPO_COT_IMSS" ColumnName="TIPO_COT_IMSS" />
+          <ScalarProperty Name="CURP" ColumnName="CURP" />
+          <ScalarProperty Name="SIN_USO45" ColumnName="SIN_USO45" />
+          <ScalarProperty Name="SIN_USO46" ColumnName="SIN_USO46" />
+          <ScalarProperty Name="SIN_USO47" ColumnName="SIN_USO47" />
+          <ScalarProperty Name="SIN_USO48" ColumnName="SIN_USO48" />
+          <ScalarProperty Name="SIN_USO49" ColumnName="SIN_USO49" />
+          <ScalarProperty Name="SIN_USO50" ColumnName="SIN_USO50" />
+          <ScalarProperty Name="TABULADOR" ColumnName="TABULADOR" />
+          <ScalarProperty Name="SAL_MENS" ColumnName="SAL_MENS" />
+          <ScalarProperty Name="SAL_DIARIO" ColumnName="SAL_DIARIO" />
+          <ScalarProperty Name="SAL_DIA_INT" ColumnName="SAL_DIA_INT" />
+          <ScalarProperty Name="SAL_DIA_SAR" ColumnName="SAL_DIA_SAR" />
+          <ScalarProperty Name="SAL_DIA_INFO" ColumnName="SAL_DIA_INFO" />
+          <ScalarProperty Name="SAL_INT_FINI" ColumnName="SAL_INT_FINI" />
+          <ScalarProperty Name="SAL_MINIMO" ColumnName="SAL_MINIMO" />
+          <ScalarProperty Name="SIN_USO59" ColumnName="SIN_USO59" />
+          <ScalarProperty Name="SIN_USO60" ColumnName="SIN_USO60" />
+          <ScalarProperty Name="ADICION1_NUM" ColumnName="ADICION1_NUM" />
+          <ScalarProperty Name="ADICION2_NUM" ColumnName="ADICION2_NUM" />
+          <ScalarProperty Name="ADICION1_FECH" ColumnName="ADICION1_FECH" />
+          <ScalarProperty Name="ADICION2_FECH" ColumnName="ADICION2_FECH" />
+          <ScalarProperty Name="ADICION1_ALFA" ColumnName="ADICION1_ALFA" />
+          <ScalarProperty Name="ADICION2_ALFA" ColumnName="ADICION2_ALFA" />
+          <ScalarProperty Name="ADICION3_ALFA" ColumnName="ADICION3_ALFA" />
+          <ScalarProperty Name="ADICION4_ALFA" ColumnName="ADICION4_ALFA" />
+          <ScalarProperty Name="FOLIO_CONTRATO" ColumnName="FOLIO_CONTRATO" />
+          <ScalarProperty Name="C_BAJA" ColumnName="C_BAJA" />
+          <ScalarProperty Name="NOMP_EMP_NORMAL" ColumnName="NOMP_EMP_NORMAL" />
+          <ScalarProperty Name="AP_PATER_NORMAL" ColumnName="AP_PATER_NORMAL" />
+          <ScalarProperty Name="AP_MATER_NORMAL" ColumnName="AP_MATER_NORMAL" />
+          <ScalarProperty Name="F_ALTA_CA" ColumnName="F_ALTA_CA" />
+          <ScalarProperty Name="F_BAJA_CA" ColumnName="F_BAJA_CA" />
+          <ScalarProperty Name="CBAJA_CA" ColumnName="CBAJA_CA" />
+          <ScalarProperty Name="PORC_CA" ColumnName="PORC_CA" />
+          <ScalarProperty Name="IMPORTE_CA" ColumnName="IMPORTE_CA" />
+          <ScalarProperty Name="F_VIGOR" ColumnName="F_VIGOR" />
+          <ScalarProperty Name="RETENCION_CA" ColumnName="RETENCION_CA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NOMINAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AN_COMEDOR_USUARIO">
+    <Key>
+      <PropertyRef Name="USUARIO_COMEDOR" />
+    </Key>
+    <Property Name="USUARIO_COMEDOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TIPO_USUARIO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_EMP" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="AP_PATER" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="AP_MATER" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="CCOSTO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PUESTO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="F_ALTA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_BAJA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_SUSPENCION" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CIA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_NOM" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SN_USO3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AN_EMP">
+    <Key>
+      <PropertyRef Name="NUM_EMP" />
+    </Key>
+    <Property Name="NUM_EMP" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMP_EMP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AP_PATER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AP_MATER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TITULO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SEXO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="F_NAC" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO7" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO8" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO9" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_SOLIC" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="RFC" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="AJUSTE_ANUAL" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CRED_SALARIO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="F_ALTA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_INGRESO" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_PLANTA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_BAJA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_BAJA_RESP" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_BAJA_IMSS" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO20" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TURNO" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="CLV_TARJ" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CCOSTO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EST_ORG" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PLAZA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PUESTO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CATEGORIA" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CONTRATO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_NOM" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_EMP" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="F_DIST_PAGO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_PAGO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="BCO_DEP" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="CTA_BAN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SUCURSAL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RECINTO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="UBICA_FIS" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="ZONA_EC" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="GUIA_POSTAL" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO40" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IMSS" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="NO_REG_PAT_IMSS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_COT_IMSS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CURP" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO45" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO46" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO47" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO48" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO49" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO50" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TABULADOR" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="SAL_MENS" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIARIO" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_INT" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_SAR" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_DIA_INFO" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_INT_FINI" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="SAL_MINIMO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO59" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIN_USO60" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION1_NUM" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="ADICION2_NUM" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="ADICION1_FECH" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION2_FECH" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION1_ALFA" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION2_ALFA" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION3_ALFA" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ADICION4_ALFA" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="FOLIO_CONTRATO" Type="Int32" />
+    <Property Name="C_BAJA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NOMP_EMP_NORMAL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AP_PATER_NORMAL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AP_MATER_NORMAL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="F_ALTA_CA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="F_BAJA_CA" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CBAJA_CA" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="PORC_CA" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="IMPORTE_CA" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="F_VIGOR" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="RETENCION_CA" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AN_COMEDOR_USUARIO" EntityType="Self.AN_COMEDOR_USUARIO" />
+    <EntitySet Name="AN_EMP" EntityType="Self.AN_EMP" />
+  </EntityContainer>
+</Schema>
