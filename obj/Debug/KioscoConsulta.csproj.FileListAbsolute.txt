@@ -25,3 +25,19 @@ D:\Proyectos\Escritorio\Kiosco_Consulta\bin\Debug\EntityFramework.SqlServer.dll
 D:\Proyectos\Escritorio\Kiosco_Consulta\bin\Debug\EntityFramework.xml
 D:\Proyectos\Escritorio\Kiosco_Consulta\bin\Debug\EntityFramework.SqlServer.xml
 D:\Proyectos\Escritorio\Kiosco_Consulta\obj\Debug\KioscoConsulta.csproj.CopyComplete
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.csproj.AssemblyReference.cache
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.PantallaAcceso.resources
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.PantallaMain.resources
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.Properties.Resources.resources
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.csproj.GenerateResource.cache
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.csproj.CoreCompileInputs.cache
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.exe
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.pdb
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\KioscoConsulta.exe.config
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\KioscoConsulta.exe
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\KioscoConsulta.pdb
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.dll
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.xml
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.csproj.CopyComplete
