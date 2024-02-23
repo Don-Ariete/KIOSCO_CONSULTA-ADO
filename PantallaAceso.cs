@@ -11,12 +11,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Drawing.Text;
 
 namespace KioscoConsulta
 {
     public partial class PantallaAcceso : Form
     {
-        AN_COMEDOR_USUARIO oUsuario = null; 
 
         public PantallaAcceso()
         {
@@ -25,7 +25,7 @@ namespace KioscoConsulta
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void BtIngreso_Click(object sender, EventArgs e)
@@ -56,10 +56,18 @@ namespace KioscoConsulta
 
             using (Models.DBEntities db = new Models.DBEntities())
             {
-                var userExist = from d in db.AN_COMEDOR_USUARIO
-                                where d.USUARIO_COMEDOR == usuarioComedor
-                                && d.F_BAJA == "" && d.F_SUSPENCION == ""
-                                select new {d.NUM_EMP,d.NOMBRE,d.AP_PATER,d.AP_MATER };
+                var userExist=db.AN_COMEDOR_USUARIO
+                    .SqlQuery(
+                    "select * from AN_COMEDOR_USUARIO " +
+                    "WHERE F_BAJA='' AND F_SUSPENCION='' " +
+                    "AND TIPO_NOM NOT LIKE '%F%' " +
+                    "AND USUARIO_COMEDOR='" + usuarioComedor+"'"
+                    )
+                    .ToList();
+                //var userExist = from d in db.AN_COMEDOR_USUARIO
+                //                where d.USUARIO_COMEDOR == usuarioComedor
+                //                && d.F_BAJA == "" && d.F_SUSPENCION == ""
+                //                select new {d.NUM_EMP,d.NOMBRE,d.AP_PATER,d.AP_MATER };
                 if (userExist.Count() ==1)
                 {
                     encontrado = true;
