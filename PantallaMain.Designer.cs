@@ -61,6 +61,7 @@ namespace KioscoConsulta
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.btExit = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblNumEmp_FM
@@ -91,6 +92,7 @@ namespace KioscoConsulta
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -354,12 +356,20 @@ namespace KioscoConsulta
             this.btExit.UseVisualStyleBackColor = true;
             this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(44, 514);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 37);
+            this.textBox1.TabIndex = 32;
+            // 
             // PantallaMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btExit);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button19);
@@ -398,6 +408,7 @@ namespace KioscoConsulta
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PantallaMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.PantallaMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -436,5 +447,6 @@ namespace KioscoConsulta
         private System.Windows.Forms.Button btExit;
         public System.Windows.Forms.Label lblNumEmp_FM;
         public System.Windows.Forms.Label lblNombre_FM;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

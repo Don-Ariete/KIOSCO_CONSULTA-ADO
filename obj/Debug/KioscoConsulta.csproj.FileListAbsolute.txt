@@ -41,3 +41,4 @@ D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.SqlServer.
 D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.xml
 D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\bin\Debug\EntityFramework.SqlServer.xml
 D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.csproj.CopyComplete
+D:\Proyectos\Escritorio\KIOSCO_CONSULTA ADO\obj\Debug\KioscoConsulta.Pantalla_TecladoNumerico.resources

@@ -88,6 +88,12 @@
     <Compile Include="PantallaMain.Designer.cs">
       <DependentUpon>PantallaMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pantalla_TecladoNumerico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla_TecladoNumerico.Designer.cs">
+      <DependentUpon>Pantalla_TecladoNumerico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PantallaAceso.resx">
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaMain.resx">
       <DependentUpon>PantallaMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla_TecladoNumerico.resx">
+      <DependentUpon>Pantalla_TecladoNumerico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
